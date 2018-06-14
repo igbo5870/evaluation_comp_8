@@ -1,0 +1,23 @@
+/*********************************
+ *         Global CSS            *
+ *********************************/
+
+ /*********************************
+ *         Header CSS             *
+ *********************************/
+
+ header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #31322F;
+    color: #FFF;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 3px solid #C30044;
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+}
