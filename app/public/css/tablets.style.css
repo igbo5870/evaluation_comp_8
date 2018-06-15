@@ -1,11 +1,16 @@
 /*********************************
  *         Global CSS            *
  *********************************/
+ body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
 
- /*********************************
+/*********************************
  *         Header CSS             *
  *********************************/
-
  header{
     display: flex;
     justify-content: space-between;
@@ -15,9 +20,136 @@
     padding-left: 15px;
     padding-right: 15px;
     border-bottom: 3px solid #C30044;
+    flex-wrap: wrap;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+.header-nav--ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-right: 15px;
+
 }
 
-header img{
-    width: 50px;
-    height: 50px;
+.header-nav--ul li{
+    width: 70px;
+ 
+ }
+
+.header-nav label, .header-nav input{
+    display: none;
 }
+
+.header-nav--ul li a{
+    color: #fff; 
+}
+
+/*********************************
+ *         Aside CSS              *
+ *********************************/
+ aside{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #D0D0D0;
+}
+
+aside ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-right: 15px;
+}
+
+aside ul li{
+    border: 3px solid #31322F;
+    padding: 2%;
+    list-style: none;
+    text-align: left;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: #31322F;
+ } 
+
+ /*********************************
+ *         Main CSS               *
+ *********************************/
+ main{
+    width: 95%;
+    padding: 15px;
+}
+
+main ul li{
+    display: flex;
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom:2px solid #ddd;
+}
+
+main img{
+    width: 218px;
+    height: 200px;
+}
+
+.main-bedroom--title{
+    padding-left: 15px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.main-bedroom--btn{
+    padding: 5px;
+    height: 25px;
+    background-color: #31322F;
+    color: #fff;
+    text-decoration: none;
+}
+ /*********************************
+ *         Footer CSS             *
+ *********************************/
+ footer{
+    display: flex;
+    color: #fff;
+    background-color: #31322F;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: 3px solid #C30044;
+}
+footer p{
+    width: 40%;
+}
+footer p a{
+    color: #fff;
+    text-decoration: none;
+} 
+
+footer p a:hover{
+    color: #5A6268;
+} 
+
+.footer-nav--ul{
+    display: flex;
+    width: 40%;
+    margin: auto;
+}
+
+.footer-nav--ul li{
+    list-style: none;
+    width: 150px;
+}
+
+.footer-nav--ul li a{
+    color:#fff;
+    text-decoration: none;
+} 
+
+.footer-nav--ul li a:hover{
+    color:#fff;
+    border-bottom: 2px solid #C30044;
+} 

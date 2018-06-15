@@ -30,6 +30,11 @@ header img{
     width: 100px;
     height: 100px;
 }
+
+.header-nav label, .header-nav input{
+    display: none;
+}
+
  .header-nav--ul{
      display: flex;
      justify-content: center;
@@ -104,7 +109,6 @@ header img{
  main img{
     width: 200px;
     height: 100px;
-    border: 1px solid #000;
 }
 .main-bedroom--title{
     width: 200px;

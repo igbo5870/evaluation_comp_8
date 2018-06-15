@@ -1,7 +1,7 @@
 /*********************************
  *         Global CSS            *
  *********************************/
-html{
+body{
     margin: 0;
     padding: 0;
 }
@@ -22,10 +22,19 @@ header img{
     width: 75px;
     height: 75px;
 }
-.header-nav--ul{
-    padding-left: 5px;
-    padding-right: 5px;
 
+.header-nav--ul{
+    display: none;
+    list-style: none;
+    padding-right: 15px;
+
+}
+
+.menu-checkbox:checked ~ .menu {
+    display: block;
+}
+.menu-checkbox{
+    display: none;
 }
 .header-nav--ul li{
     margin: auto;
@@ -75,7 +84,9 @@ aside ul li a{
 }
 main ul {
     padding: 0;
+    text-align: center;
 }
+
 main ul li{
     padding-top: 15px;
     padding-bottom: 15px;
