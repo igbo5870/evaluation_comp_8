@@ -1,7 +1,10 @@
 /*********************************
  *         Global CSS            *
  *********************************/
-
+html{
+    margin: 0;
+    padding: 0;
+}
 /*********************************
  *         Header CSS            *
  *********************************/
@@ -63,3 +66,84 @@ aside ul li a{
     color: #000;
     text-decoration: none;
 }
+
+/*********************************
+ *         Main CSS               *
+ *********************************/
+ main{
+    padding: 15px;
+}
+main ul {
+    padding: 0;
+}
+main ul li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    list-style: none;
+    width: 250px;
+    border-bottom:1px solid #eae7da;
+}
+
+main img{
+   width: 200px;
+   height: 100px;
+}
+
+.main-bedroom--title h3, .main-bedroom--title h4{
+    margin: 0;
+}
+
+.main-bedroom--btn{
+    display:block;
+    margin: auto;
+    width: 100px;
+    text-align: center;
+    margin-right: 1%;
+    padding: 5px;
+    background-color: #31322F;
+    color: #fff;
+    text-decoration: none;
+}
+
+ /*********************************
+ *         Footer CSS             *
+ *********************************/
+ footer{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: #31322F;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: 3px solid #C30044;
+    text-align: center;
+}
+.footer-copy{
+    order: 2;
+}
+
+footer p a{
+
+    color: #fff;
+    text-decoration: none;
+} 
+
+.footer-nav--ul{
+    margin: 0;
+    padding: 0;
+}
+.footer-nav--ul li{
+    width: 90%;
+    margin: auto;
+    color: #fff;
+    list-style: none;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+.footer-nav--ul li a{
+    color:#fff;
+    text-decoration: none;
+} 
