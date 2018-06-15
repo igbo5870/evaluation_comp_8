@@ -120,6 +120,9 @@ main img{
     text-align: center;
     padding: 5px;
     background-color: #31322F;
+}
+
+.main-bedroom--btn a{
     color: #fff;
     text-decoration: none;
 }

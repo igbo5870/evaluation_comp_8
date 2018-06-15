@@ -118,6 +118,9 @@ main img{
     padding: 1%;
     height: 25px;
     background-color: #31322F;
+}
+
+.main-bedroom--btn a{
     color: #fff;
     text-decoration: none;
 }

@@ -87,6 +87,10 @@ header img{
     color: #31322F;
  } 
 
+ .nav-aside label, .nav-aside input{
+    display: none;
+}
+
  /*********************************
  *         Main CSS               *
  *********************************/
@@ -126,12 +130,15 @@ header img{
 }
 
 .main-bedroom--btn{
+    width: 65px;
     padding: 5px;
     background-color: #31322F;
+}
+
+.main-bedroom--btn a{
     color: #fff;
     text-decoration: none;
 }
-
 .main-bedroom--btn:hover{
    background-color: #5A6268;
 }
@@ -178,4 +185,8 @@ footer p a:hover{
 .footer-nav--ul li a:hover{
     color:#fff;
     border-bottom: 2px solid #C30044;
-} 
+}
+
+.footer-nav label, .footer-nav input{
+    display: none;
+}
