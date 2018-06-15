@@ -38,13 +38,17 @@
     <div class="content">
         <aside>
             <h2>Catégorie</h2>
-            <ul class="menu-aside">
-                <li><a href="#">Catégorie 1</a></li>
-                <li><a href="#">Catégorie 2</a></li>
-                <li><a href="#">Catégorie 3</a></li>
-                <li><a href="#">Catégorie 4</a></li>
-                <li><a href="#">Catégorie 5</a></li>
-            </ul>
+            <nav class="nav-aside">
+                <input type="checkbox" id="menu-checkbox-aside" class="menu-checkbox-aside">
+                <label for="menu-checkbox-aside" class="menu-toggle-aside"><i class=" i-aside fas fa-bars fa-3x"></i></label>
+                <ul class="menu-aside">
+                    <li><a href="#">Catégorie 1</a></li>
+                    <li><a href="#">Catégorie 2</a></li>
+                    <li><a href="#">Catégorie 3</a></li>
+                    <li><a href="#">Catégorie 4</a></li>
+                    <li><a href="#">Catégorie 5</a></li>
+                </ul>
+            </nav>
         </aside>
         <main>
             <h2>Liste des chambres</h2>
@@ -179,7 +183,9 @@
     <footer>
             <p class="footer-copy"> &copy; Copyright, <a href="#">Mention Légale</a></p>
         <nav class="footer-nav">
-            <ul class="footer-nav--ul">
+            <input type="checkbox" id="menu-checkbox-footer" class="menu-checkbox-footer">
+            <label for="menu-checkbox-footer" class="menu-toggle-footer"><i class=" i-footer fas fa-bars fa-3x"></i></label>
+            <ul class=" menu-footer footer-nav--ul">
                 <li><a href="#">Menu 1</a></li>
                 <li><a href="#">Menu 2</a></li>
                 <li><a href="#">Menu 3</a></li>

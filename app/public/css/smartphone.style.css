@@ -59,13 +59,19 @@ header img{
 
 }
 
+.menu-checkbox-aside:checked ~ .menu-aside {
+    display: block;
+}
+
+.menu-checkbox-aside{
+    display: none;
+}
 aside ul{
+    display: none;
     padding-left: 5px;
     padding-right: 5px;
-    flex-wrap: wrap;
 }
 aside ul li{
-    margin: auto;
     width: 90%;
     list-style: none;
     border: 1px solid #31322F;
@@ -81,6 +87,7 @@ aside ul li a{
  *         Main CSS               *
  *********************************/
  main{
+    text-align: center;
     padding: 15px;
 }
 main ul {
@@ -92,14 +99,14 @@ main ul li{
     padding-top: 15px;
     padding-bottom: 15px;
     list-style: none;
-    width: 250px;
     border-bottom:1px solid #eae7da;
 }
 
 main img{
-   width: 200px;
-   height: 100px;
+   width: 250px;
+   height: 150px;
 }
+
 
 .main-bedroom--title h3, .main-bedroom--title h4{
     margin: 0;
@@ -109,8 +116,8 @@ main img{
     display:block;
     margin: auto;
     width: 100px;
+    height: 25px;
     text-align: center;
-    margin-right: 1%;
     padding: 5px;
     background-color: #31322F;
     color: #fff;
@@ -132,6 +139,15 @@ main img{
     border-top: 3px solid #C30044;
     text-align: center;
 }
+
+.menu-checkbox-footer:checked ~ .menu-footer {
+    display: block;
+}
+
+.menu-checkbox-footer{
+    display: none;
+}
+
 .footer-copy{
     order: 2;
 }
@@ -143,6 +159,7 @@ footer p a{
 } 
 
 .footer-nav--ul{
+    display: none;
     margin: 0;
     padding: 0;
 }
