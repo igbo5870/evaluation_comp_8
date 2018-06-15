@@ -13,24 +13,28 @@
  *********************************/
  header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #31322F;
     color: #FFF;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
     border-bottom: 3px solid #C30044;
     flex-wrap: wrap;
 }
+h1{
+   padding-right: 15%;
+}
 .header-nav{
     display: flex;
-    align-items: center;
+    padding-left: 0;
 }
 .header-nav--ul{
     display: flex;
     justify-content: center;
     list-style: none;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 
@@ -75,6 +79,9 @@ aside ul li a{
     color: #31322F;
  } 
 
+ .nav-aside label, .nav-aside input{
+    display: none;
+}
  /*********************************
  *         Main CSS               *
  *********************************/
@@ -91,6 +98,10 @@ main ul li{
     border-bottom:2px solid #ddd;
 }
 
+main ul li p{
+ padding-left: 2%;
+ padding-right: 2%;
+}
 main img{
     width: 218px;
     height: 200px;
@@ -98,12 +109,13 @@ main img{
 
 .main-bedroom--title{
     padding-left: 15px;
-    width: 200px;
+    width: 400px;
     display: flex;
     flex-direction: column;
 }
 .main-bedroom--btn{
-    padding: 5px;
+    margin-top:160px;
+    padding: 1%;
     height: 25px;
     background-color: #31322F;
     color: #fff;
@@ -114,42 +126,50 @@ main img{
  *********************************/
  footer{
     display: flex;
+    flex-direction: column;
     color: #fff;
     background-color: #31322F;
     align-items: center;
+    padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
     border-top: 3px solid #C30044;
+    text-align: center;
 }
-footer p{
-    width: 40%;
+
+.menu-checkbox-footer:checked ~ .menu-footer {
+    display: block;
 }
+
+.menu-checkbox-footer{
+    display: none;
+}
+
+.footer-copy{
+    order: 2;
+}
+
 footer p a{
+
     color: #fff;
     text-decoration: none;
 } 
 
-footer p a:hover{
-    color: #5A6268;
-} 
-
 .footer-nav--ul{
-    display: flex;
-    width: 40%;
-    margin: auto;
+    display: none;
+    margin: 0;
+    padding: 0;
 }
-
 .footer-nav--ul li{
+    width: 90%;
+    margin: auto;
+    color: #fff;
     list-style: none;
-    width: 150px;
+    border: 1px solid #fff;
+    padding: 10px;
 }
 
 .footer-nav--ul li a{
     color:#fff;
     text-decoration: none;
-} 
-
-.footer-nav--ul li a:hover{
-    color:#fff;
-    border-bottom: 2px solid #C30044;
 } 
